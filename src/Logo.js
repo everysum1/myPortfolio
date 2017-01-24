@@ -4,7 +4,7 @@ class Logo extends Component {
   render () {
     return (
       <div className="Logo">
-        <h1>Israel Matos</h1>
+        <h1>Israel D. Matos</h1>
       </div>
     )
   }

@@ -7,11 +7,11 @@ class Contact extends Component {
         <h1>Contact</h1>
         <h3>Send me a message...</h3>
         <form action="#" method="POST">
-          <label for="">Name</label>
+          <label htmlFor="">Name</label>
           <input type="text" name="name" />
-          <label for="">Email</label>
+          <label htmlFor="">Email</label>
           <input type="text" name="email" />
-          <label for="">Message</label>
+          <label htmlFor="">Message</label>
           <input type="text" name="message" />
           <input type="submit" value="Send" />
         </form>

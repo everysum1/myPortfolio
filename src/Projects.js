@@ -7,6 +7,7 @@ class Projects extends Component {
         <h1>Projects</h1>
         <img src="https://placehold.it/300x200" alt="" />
         <img src="https://placehold.it/300x200" alt="" />
+        <hr />
       </div>
     )
   }

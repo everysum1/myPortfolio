@@ -15,6 +15,7 @@ class Contact extends Component {
           <input type="text" name="message" />
           <input type="submit" value="Send" />
         </form>
+        <hr />
       </div>
     )
   }

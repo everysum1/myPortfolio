@@ -12,6 +12,7 @@ class Experience extends Component {
           <li><a href="#">Download Resume</a></li>
           <li>Experience 4</li>
         </ul>
+        <hr />
       </div>
     )
   }

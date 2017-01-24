@@ -20,6 +20,7 @@ class About extends Component {
           shabby chic flexitarian master cleanse messenger bag. Slow-carb knausgaard 
           kogi vape. Bitters YOLO drinking vinegar art party tattooed, pickled deep v.
         </p>
+        <hr />
       </div>
     )
   }

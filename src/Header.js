@@ -8,6 +8,7 @@ class Header extends Component {
       <div className="Header">
         <Logo />
         <Navbar />
+        <hr />
       </div>
     )
   }

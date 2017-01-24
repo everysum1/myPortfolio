@@ -1,14 +1,10 @@
-import React, { Component } from 'react';
+var React = require('react');
 var Slider = require('react-slick');
 
-class Projects extends Component {
-  render() {
+var Projects = React.createClass({
+  render: function() {
     let settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 6,
-      slidesToScroll: 6
+      dots: true
     };
 
     return (
@@ -17,19 +13,16 @@ class Projects extends Component {
         <img src="https://placehold.it/300x200" alt="" />
         <img src="https://placehold.it/300x200" alt="" />
         <Slider {...settings}>
-          <div><h3>1</h3></div>
-          <div><h3>2</h3></div>
-          <div><h3>3</h3></div>
-          <div><h3>4</h3></div>
-          <div><h3>5</h3></div>
-          <div><h3>6</h3></div>
+          <div><img src='http://placekitten.com/g/400/200' alt="project"/></div>
+          <div><img src='http://placekitten.com/g/400/200' alt="project"/></div>
+          <div><img src='http://placekitten.com/g/400/200' alt="project"/></div>
+          <div><img src='http://placekitten.com/g/400/200' alt="project"/></div>
         </Slider>
-
 
         <hr />
       </div>
     )
   }
-}
+});
 
 export default Projects;
